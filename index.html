@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cerebro App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Aplicación CEREBRO</title>
+    <style>
+        body { display: flex; font-family: Arial, sans-serif; } 
+        .panel { flex: 1; padding: 10px; box-sizing: border-box; }
+        .left-panel { background-color: #f0f0f0; } 
+        .center-panel { background-color: #e0e0e0; } 
+        .right-panel { background-color: #d0d0d0; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Cerebro</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a project description for the Cerebro app.</p>
-        </section>
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Cerebro App</p>
-    </footer>
-    <script src="script.js"></script>
+    <div class="panel left-panel">
+        <h2>Calendario / Música</h2>
+        <div id="calendar">
+            <p>Calendario interactivo aquí</p>
+        </div>
+        <div id="music">
+            <p>Controles de música aquí</p>
+        </div>
+    </div>
+    <div class="panel center-panel">
+        <h2>Hoy / Proyectos</h2>
+        <div id="today-projects">
+            <p>Lista de proyectos del día aquí</p>
+        </div>
+    </div>
+    <div class="panel right-panel">
+        <h2>Prioridad / Ideas / Identidad</h2>
+        <div id="priority">
+            <p>Elementos prioritarios aquí</p>
+        </div>
+        <div id="ideas">
+            <p>Ideas aquí</p>
+        </div>
+        <div id="identity">
+            <p>Identidad de la aplicación aquí</p>
+        </div>
+    </div>
 </body>
 </html>
