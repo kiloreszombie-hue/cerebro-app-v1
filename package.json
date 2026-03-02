@@ -1,1 +1,11 @@
-{"name": "cerebro-app-v1", "version": "1.0.0", "description": "Tu segundo cerebro - Aplicación para organizar tu vida", "author": "kiloreszombie-hue", "license": "MIT"}
+{
+  "name": "cerebro-app-v1",
+  "version": "1.0.0",
+  "description": "Tu segundo cerebro - Aplicación para organizar tu vida",
+  "author": "kiloreszombie-hue",
+  "license": "MIT",
+  "scripts": {
+    "start": "node js/app.js",
+    "package": "node scripts/package-app.js"
+  }
+}
